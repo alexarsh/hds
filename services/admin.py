@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 from django.contrib import admin
-from .models import Service, HealthCheck
+from services.models import Service, HealthCheck
 
 class ServiceAdmin(admin.ModelAdmin):
     pass

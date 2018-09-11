@@ -3,7 +3,11 @@
 ## Demo
 
 You can see the demo here: [https://health-dashboard-service.tk/](https://health-dashboard-service.tk/)
+
+(login with admin / z5fgmeca)
+
 Health status can be seen here: [https://health-dashboard-service.tk/services/health/](https://health-dashboard-service.tk/services/health/)
+
 Availability can be seen here: [https://health-dashboard-service.tk/services/availability/](https://health-dashboard-service.tk/services/availability/)
 
 ## Getting Started
@@ -12,9 +16,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-```
 In order to install the project, you will need:
-1. Python version ">=3.7"
+
+```
+1. Python version ">=3.5"
 2. Pip
 3. Celery
 4. Redis (installed and running)
@@ -37,6 +42,7 @@ Here are step by step install instructions:
 ## Running the tests
 
 In order to run the unit tests, go to the project dir and run:
+
 ```
 python manage.py test
 ```

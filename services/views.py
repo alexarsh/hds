@@ -2,8 +2,8 @@ import pytz
 from datetime import datetime, timedelta
 from django.http import JsonResponse
 
-from .helpers import service_alive
-from .models import HealthCheck, Service
+from services.helpers import service_alive
+from services.models import HealthCheck, Service
 
 
 def health(request):

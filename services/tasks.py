@@ -2,8 +2,8 @@ from celery import shared_task
 from datetime import datetime
 import pytz
 
-from .helpers import service_alive
-from .models import Service, HealthCheck
+from services.helpers import service_alive
+from services.models import Service, HealthCheck
 
 
 @shared_task

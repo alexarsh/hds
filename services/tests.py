@@ -2,8 +2,8 @@ import json, requests
 from unittest.mock import patch
 from django.test import TestCase
 
-from .helpers import service_alive
-from .models import Service
+from services.helpers import service_alive
+from services.models import Service
 
 class TestHealthChecks(TestCase):
 
