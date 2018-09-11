@@ -1,10 +1,8 @@
-# Pet sitter app
-
-Webapp for keeping and feeding your pets
+# Health Dashboard Service
 
 ## Demo
 
-You can see the demo here: [https://pet-sitter.tk](https://pet-sitter.tk)
+You can see the demo here: [https://...](https://...)
 
 ## Getting Started
 
@@ -14,7 +12,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ```
 In order to install the project, you will need:
-1. Node version ">=6"
+1. Python version ">=3.7"
 2. The latest yarn to be installed globally.
 ```
 
