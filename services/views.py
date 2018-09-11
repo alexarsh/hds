@@ -15,7 +15,7 @@ def health(request):
 
 def availability(request):
     availability = {}
-    last_hour = datetime.utcnow().replace(tzinfo=pytz.utc) - timedelta(hours=1)
+    last_hour = datetime.utcnow().replace(tzinfo=pytz.utc) - timedelta(hours=1, minutes=1)
     for service in Service.objects.all():
         total_checks = HealthCheck.objects.filter(service=service, date__gte=last_hour)
         if total_checks.count() < 60:
