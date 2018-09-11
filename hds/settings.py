@@ -26,7 +26,7 @@ SECRET_KEY = '9bnn0hqhljvocqkbmd!d181-2kkc=z22ei6jv_-4iwpe^v0w#g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['health-dashboard-service.tk', 'localhost']
 
 
 # Application definition
